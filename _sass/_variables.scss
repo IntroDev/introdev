@@ -1,15 +1,23 @@
-$brand-primary: #2880b9;
-$brand-primary-light: #3b96d2;
-$brand-primary-dark: #2c3e50;
-$brand-highlight: #e74d3c;
+$brand-green: #4f8b8e;
+$brand-purple: #51345f;
+$brand-brown: #4a2f1c;
+$brand-cream: #cdc4ac;
+$brand-grey: #9fa49f;
+$brand-red: #9a3737;
+
+
+$brand-primary: $brand-green;
+$brand-highlight: $brand-red;
+
+$text-color: darken($brand-grey, 40%);;
 
 $font-family-sans-serif: 'Open Sans', sans-serif;
 $headings-font-weight: 400;
 
-$navbar-height: 70px;
+$navbar-height: 90px;
 $navbar-default-bg: #fff;
 
-$jumbotron-bg: $brand-primary-light;
+$jumbotron-bg: $brand-green;
 $jumbotron-color: #fff;
 
 $bubble-border-width: 2px;
