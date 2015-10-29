@@ -5,10 +5,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Helping software development teams be more effective through the careful
   use of agile project management, development best practices and clean
   software architecture.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://introdev.co.uk" # the base hostname & protocol for your site
+baseurl: "/introdev" # the subpath of your site, e.g. /blog/
+url: "http://introdev.github.io/introdev" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+port: 4005
 
 # Build settings
 markdown: kramdown
