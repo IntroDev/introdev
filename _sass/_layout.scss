@@ -29,6 +29,11 @@ header {
 
       padding-top: $padding-base-vertical;
       padding-bottom: $padding-base-vertical;
+
+      .logo {
+        height: $navbar-height - ($padding-large-vertical * 2);
+        margin-top: $padding-large-vertical / 2;
+      }
     }
 
     .menu {
