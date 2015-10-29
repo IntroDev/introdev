@@ -29,11 +29,6 @@ header {
 
       padding-top: $padding-base-vertical;
       padding-bottom: $padding-base-vertical;
-
-      .logo {
-        height: $navbar-height - ($padding-large-vertical * 2);
-        margin-top: $padding-large-vertical / 2;
-      }
     }
 
     .menu {
@@ -45,7 +40,7 @@ header {
 footer {
   @extend .text-muted;
 
-  background-color: $brand-primary-dark;
+  background-color: $brand-purple;
   color: white;
   padding-top: $padding-large-vertical;
   padding-bottom: $padding-large-vertical;
@@ -63,7 +58,7 @@ footer {
   }
 
   small {
-    color: lighten($brand-primary-dark, 40%);
+    color: lighten($brand-primary, 40%);
   }
 }
 
@@ -103,8 +98,53 @@ footer {
   clear: both;
 }
 
-.whatwedo {
-  background-color: #039a88;
+.intro {
+  padding: 45px 0;
+  background-color: $brand-red;
   color: white;
+}
 
+.team-intro {
+  padding: 15px 0 30px 0;
+  color: white;
+  background-color: $brand-green;
+}
+
+.whatwedo {
+  background-color: $brand-green;
+  color: white;
+  padding-top: $jumbotron-padding;
+  padding-bottom: $jumbotron-padding;
+  margin-top: $jumbotron-padding;
+  margin-bottom: $jumbotron-padding;
+}
+
+.number-xl {
+
+  font-size: 100px;
+  background-color: $brand-primary;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.number-one {
+  background-color: $brand-primary;
+}
+
+.number-two {
+  background-color: $brand-highlight;
+}
+
+.number-three {
+  background-color: $brand-purple;
+}
+
+.text-xl {
+  font-size: 100px;
+}
+
+.img-team {
+  @extend .img-responsive;
+  @extend .img-circle;
+  margin-top:45px;
 }
