@@ -15,8 +15,9 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-sass": "~3.3.4",
     "animate.css": "~3.3.0",
+    "bootstrap-sass": "~3.3.4",
+    "devicons": "~1.8.0",
     "jquery-waypoints": "~3.1.1"
   }
 }
