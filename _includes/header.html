@@ -21,7 +21,7 @@
       <div id="main-menu" class="collapse navbar-collapse">
         <ul class="menu">
           <li class="{% if "/index.html" == page.url %}active{% endif %}">
-            <a href="/">Home</a>
+            <a href="{{ '/' | prepend: site.baseurl }}">Home</a>
           </li>
 
           {% for link in site.pages %}
