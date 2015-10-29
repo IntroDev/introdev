@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?vxsxx9');
+	src:url('../ffonts/icomoon.eot?vxsxx9#iefix') format('embedded-opentype'),
+		url('../ffonts/icomoon.ttf?vxsxx9') format('truetype'),
+		url('../ffonts/icomoon.woff?vxsxx9') format('woff'),
+		url('../ffonts/icomoon.svg?vxsxx9#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angular_simple:before {
+	content: "\e900";
+}
+.icon-aws:before {
+	content: "\e901";
+}
+.icon-git:before {
+	content: "\e902";
+}
+.icon-html5:before {
+	content: "\e903";
+}
+.icon-ionic:before {
+	content: "\e904";
+}
+.icon-jenkins:before {
+	content: "\e905";
+}
+.icon-js_badge:before {
+	content: "\e906";
+}
+.icon-less:before {
+	content: "\e907";
+}
+.icon-mongodb:before {
+	content: "\e908";
+}
+.icon-nodejs:before {
+	content: "\e909";
+}
+.icon-php:before {
+	content: "\e90a";
+}
+.icon-sass:before {
+	content: "\e90b";
+}
+.icon-visualstudio:before {
+	content: "\e90c";
+}
