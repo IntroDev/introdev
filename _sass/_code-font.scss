@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'leantomato';
+	src:url('fonts/leantomato.eot?-gyn3wr');
+	src:url('../fonts/leantomato.eot?#iefix-gyn3wr') format('embedded-opentype'),
+		url('../fonts/leantomato.ttf?-gyn3wr') format('truetype'),
+		url('../fonts/leantomato.woff?-gyn3wr') format('woff'),
+		url('../fonts/leantomato.svg?-gyn3wr#leantomato') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+i.code {
+	font-family: 'leantomato';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 24px;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.code-a:before {
+	content: "\61";
+}
+.code-b:before {
+	content: "\62";
+}
+.code-c:before {
+	content: "\63";
+}
+.code-d:before {
+	content: "\64";
+}
+.code-e:before {
+	content: "\65";
+}
+.code-f:before {
+	content: "\66";
+}
+.code-g:before {
+	content: "\67";
+}
+.code-h:before {
+	content: "\68";
+}
+.code-i:before {
+	content: "\69";
+}
+.code-j:before {
+	content: "\6a";
+}
+.code-k:before {
+	content: "\6b";
+}
+.code-l:before {
+	content: "\6c";
+}
+.code-m:before {
+	content: "\6d";
+}
+.code-n:before {
+	content: "\6e";
+}
+.code-o:before {
+	content: "\6f";
+}
+.code-p:before {
+	content: "\70";
+}
+.code-q:before {
+	content: "\71";
+}
+.code-r:before {
+	content: "\72";
+}
+.code-s:before {
+	content: "\73";
+}
+.code-t:before {
+	content: "\74";
+}
+.code-u:before {
+	content: "\75";
+}
+.code-v:before {
+	content: "\76";
+}
+.code-w:before {
+	content: "\77";
+}
+.code-x:before {
+	content: "\78";
+}
+.code-y:before {
+	content: "\79";
+}
+.code-z:before {
+	content: "\7a";
+}
